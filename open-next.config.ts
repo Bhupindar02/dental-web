@@ -1,5 +1,6 @@
 // OpenNext Cloudflare configuration
 const config = {
+  buildCommand: "npm run build:next",
   default: {
     override: {
       wrapper: "cloudflare-node",
